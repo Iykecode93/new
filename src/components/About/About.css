@@ -1,0 +1,93 @@
+/* General Styling for About Us Page */
+.about-us {
+    padding: 40px;
+    background: linear-gradient(135deg, #f3f4f6, #dfe4ea);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #004080;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #004080;
+    font-size: 2rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 768px) {
+    .about-us {
+      padding: 20px;
+    }
+  
+    .about-container {
+      padding: 20px;
+      margin: 10px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    h2 {
+      font-size: 1.6rem;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-us {
+      padding: 15px;
+    }
+  
+    .about-container {
+      padding: 15px;
+      margin: 5px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 15px;
+      margin-bottom: 8px;
+    }
+  
+    p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  }
+  

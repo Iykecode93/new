@@ -1,0 +1,44 @@
+.exam-page {
+  max-width: 500px;
+  margin: 175px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.exam-page h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.subject-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.start-exam-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-exam-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.start-exam-btn:hover:not(:disabled) {
+  background-color: #4cae4c;
+}

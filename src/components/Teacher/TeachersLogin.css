@@ -1,0 +1,134 @@
+.teachers-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 84vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  font-family: 'Arial', sans-serif;
+}
+
+.teachers-login-container h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #0a0505;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+input {
+  width: 90%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f9f9f9;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+select {
+  width: 50%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f9f9f9;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.login-btn {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: #fff;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(90deg, #0056b3, #004099);
+  transform: translateY(-2px);
+}
+
+.login-btn:active {
+  transform: translateY(0);
+}
+
+.error-message {
+  color: #d9534f;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+
+  .teachers-login-container {
+    height: 80vh;
+  }
+
+  .teachers-login-container {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .login-form {
+    padding: 20px;
+    max-width: 350px;
+  }
+
+  input, select {
+    font-size: 0.9rem;
+    max-width: 326px;
+  }
+
+  .login-btn {
+    font-size: 0.9rem;
+    margin-left: 20px;
+  }
+}

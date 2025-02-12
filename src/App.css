@@ -1,0 +1,68 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #060f19;
+    color: #333;
+    overflow-x: hidden;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    font-weight: 600;
+  }
+  
+ 
+  /* Footer */
+  .footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .navbar-logo img {
+      width: 120px;
+    }
+  
+    .contact-form-container {
+      padding: 20px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 0.9rem;
+    }
+  
+    .navbar-hamburger {
+      display: block;
+    }
+  
+    .navbar-links.active {
+      top: 50px;
+      width: 100%;
+    }
+  }
+  

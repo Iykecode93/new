@@ -1,0 +1,134 @@
+/* ManageTeachers.css */
+
+.manage-students-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #911414;
+}
+
+.manage-students-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.show-password-btn {
+  width: 90px;
+}
+
+.student-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+.student-form label {
+  width: 100%;
+  font-weight: bold;
+  color: #555;
+}
+
+.student-form input,
+.student-form select {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 5px 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.student-form button.form-btn {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.student-form button.form-btn:hover {
+  background-color: #0056b3;
+}
+
+.students-table {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.students-table th,
+.students-table td {
+  padding: 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.students-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.students-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.students-table tr:hover {
+  background-color: #e6f7ff;
+}
+
+.students-table button.edit-btn {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.students-table button.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.students-table button.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.students-table button.delete-btn:hover {
+  background-color: #bd2130;
+}
+
+@media (max-width: 768px) {
+  .student-form {
+    flex-direction: column;
+  }
+
+  .students-table th,
+  .students-table td {
+    font-size: 14px;
+  }
+}

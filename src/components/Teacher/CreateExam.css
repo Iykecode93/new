@@ -1,0 +1,95 @@
+.create-exam-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+}
+
+.create-exam-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.create-exam-container h3 {
+  margin-top: 30px;
+  color: #444;
+  font-size: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-group input {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.question {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #555;
+}
+
+.question input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-question-btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #0275d8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-question-btn:hover {
+  background-color: #025aa5;
+}
+
+.submit-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.submit-btn:hover {
+  background-color: #4cae4c;
+}

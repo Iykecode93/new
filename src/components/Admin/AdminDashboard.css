@@ -1,0 +1,60 @@
+.admin-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 80vh;
+    background: linear-gradient(135deg, #eef1f3, #2d83da);
+    color: white;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .dashboard-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .dashboard-btn {
+    background: #28a745;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .dashboard-btn:hover {
+    transform: translateY(-5px);
+    background: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-btn {
+      width: 80%;
+      text-align: center;
+      font-size: 1rem;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  

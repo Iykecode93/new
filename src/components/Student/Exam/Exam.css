@@ -1,0 +1,220 @@
+/* Exam Container */
+.exam-container {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin: 50px auto;
+  }
+  
+  /* Exam Title */
+  .exam-title {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    color: white;
+  }
+  
+  /* Result Container */
+  .result-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Input Container */
+  .input-container {
+    margin: 20px 0;
+  }
+
+  /* Styling for the question text */
+.question-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px; /* Space between question text and options */
+  color: #ebe3e3;
+}
+
+/* Styling for the numbering */
+.question-number {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+  
+  /* Option Label for checkboxes */
+  .option-label {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin: 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    color: white;
+  }
+  
+  /* Style for checkboxes */
+  input[type="checkbox"] {
+    margin-right: 12px;
+    width: 22px;
+    height: 22px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  /* Checked Checkbox Styling */
+  input[type="checkbox"]:checked {
+    background-color: #007bff;
+    border-color: #0056b3;
+  }
+  
+  /* Add a smooth transition for checkbox background change */
+  input[type="checkbox"]:checked:after {
+    content: '\2713'; /* Checkmark symbol */
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 3px;
+    left: 6px;
+  }
+  
+  /* Hover Effect for Checkboxes */
+  input[type="checkbox"]:hover {
+    border-color: #0056b3;
+  }
+  
+  /* Input Field Style */
+  .input-field {
+    padding: 12px;
+    width: 85%;
+    margin: 20px 40px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+
+  .exam-score {
+    color: rgb(0, 255, 89);
+    margin: 30px;
+  }
+  
+  /* Focused Input Field */
+  .input-field:focus {
+    border-color: #1cc88a;
+  }
+  
+  /* Buttons - Submit & Next */
+  .submit-btn,
+  .next-btn {
+    background-color: #1cc88a;
+    color: white;
+    padding: 14px 32px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 40px;
+  }
+  
+  /* Hover Effects for Buttons */
+  .submit-btn:hover,
+  .next-btn:hover {
+    background-color: #17a676;
+  }
+  
+  /* Question Container */
+  .question-container {
+    margin-top: 30px;
+  }
+  
+  /* Question Text Style */
+  .question-text {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Options Container */
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  /* Option Input Styling */
+  .option-input {
+    margin-right: 15px;
+    transform: scale(1.3);
+  }
+  
+  /* Option Label Hover */
+  .option-label:hover {
+    color: #1cc88a;
+  }
+  
+  /* Premium Next Button Style */
+  .next-button {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 25px;
+  }
+  
+  /* Hover Effect for Next Button */
+  .next-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+  }
+  
+  /* Focus Effect for Next Button */
+  .next-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Disabled State for Next Button */
+  .next-button:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+  }
+  
+  /* Loading State */
+  p {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #f7f7f7;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 600px) {
+    .exam-container {
+      padding: 15px;
+    }
+  
+    .input-field {
+      width: 100%;
+    }
+  
+    .next-btn,
+    .submit-btn {
+      width: 100%;
+    }
+  }
+  
